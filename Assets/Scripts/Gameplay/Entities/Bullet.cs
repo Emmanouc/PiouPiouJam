@@ -11,6 +11,8 @@ public class Bullet : MonoBehaviour
     [SerializeField] int _team;
     [SerializeField] float _timeToLive = 10.0f;
 
+    public bool DontDestroy { get; set; }
+
     float _speed = 10;
     float _damage = 5;
     Vector3 _direction;
@@ -39,11 +41,13 @@ public class Bullet : MonoBehaviour
 
         if (other == null)
         {
-            GameObject.Destroy(gameObject);
+            if (DontDestroy == false)
+                GameObject.Destroy(gameObject);
         }
         else if (other.Team != _team)
         {
-            GameObject.Destroy(gameObject);
+            if (DontDestroy == false)
+                GameObject.Destroy(gameObject);
 
             other.Hit(_damage);
         }
