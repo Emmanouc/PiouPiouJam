@@ -13,42 +13,42 @@ MonoBehaviour:
   m_Name: Level1Data
   m_EditorClassIdentifier: 
   _waves:
-  - _timeToStart: 3
-    _timesToRepeat: 15
-    _repeatTimer: 8
+  - _timeToStart: 5
+    _timesToRepeat: 5
+    _repeatTimer: 5
     _enemyCount: 10
     _enemy: {fileID: 11400000, guid: de7771034e75ff04197edc11a666a0a1, type: 2}
     _movementType: 0
-    _spawnDistance: 15
-  - _timeToStart: 10
-    _timesToRepeat: 1
-    _repeatTimer: 5
+    _spawnDistance: 20
+  - _timeToStart: 15
+    _timesToRepeat: 3
+    _repeatTimer: 25
     _enemyCount: 1
     _enemy: {fileID: 11400000, guid: b04b64170d5a92a4ca0e2febad2606c0, type: 2}
     _movementType: 0
-    _spawnDistance: 7
-  - _timeToStart: 6
-    _timesToRepeat: 15
-    _repeatTimer: 9
-    _enemyCount: 6
-    _enemy: {fileID: 11400000, guid: 8e869b70977fecc48be1008a339eeb0e, type: 2}
-    _movementType: 0
     _spawnDistance: 20
-  - _timeToStart: 15
-    _timesToRepeat: 1
-    _repeatTimer: 5
-    _enemyCount: 1
-    _enemy: {fileID: 11400000, guid: c644584f34566e44d9121bb65fd1c175, type: 2}
-    _movementType: 0
-    _spawnDistance: 10
-  - _timeToStart: 8
+  - _timeToStart: 500
     _timesToRepeat: 15
     _repeatTimer: 10
     _enemyCount: 4
     _enemy: {fileID: 11400000, guid: bc90c4451174e5e4c8a321ea92ea92c5, type: 2}
     _movementType: 0
     _spawnDistance: 20
-  - _timeToStart: 20
+  - _timeToStart: 500
+    _timesToRepeat: 1
+    _repeatTimer: 5
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: b04b64170d5a92a4ca0e2febad2606c0, type: 2}
+    _movementType: 0
+    _spawnDistance: 5
+  - _timeToStart: 500
+    _timesToRepeat: 1
+    _repeatTimer: 5
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: c644584f34566e44d9121bb65fd1c175, type: 2}
+    _movementType: 0
+    _spawnDistance: 5
+  - _timeToStart: 500
     _timesToRepeat: 1
     _repeatTimer: 5
     _enemyCount: 1
