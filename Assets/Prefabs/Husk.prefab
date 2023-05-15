@@ -98,4 +98,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathFX: {fileID: 8481641091520885572, guid: b4faaf24a7ae0de47afaf5f18cd1bf55, type: 3}
-  delay: 2
+  delay: 1

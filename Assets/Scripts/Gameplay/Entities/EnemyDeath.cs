@@ -8,7 +8,7 @@ public class EnemyDeath : MonoBehaviour
     public float delay;
 
 
-    void Update()
+    void Start()
     {
         StartCoroutine(Delay(delay));
     }
@@ -17,7 +17,10 @@ public class EnemyDeath : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
+        GameObject Soul = Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
+
+        ParticleSystem SoulFX = Soul.GetComponent<ParticleSystem>();
+        yield return new WaitWhile(() =>SoulFX.isPlaying);
 
         GameObject.Destroy(gameObject);
     }
