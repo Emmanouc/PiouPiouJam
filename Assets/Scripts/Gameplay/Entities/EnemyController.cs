@@ -15,6 +15,8 @@ public class EnemyController : Unit
     Rigidbody2D _rb;
     EnemyData _data;
 
+    [SerializeField] SpriteRenderer _sprite;
+
     public GameObject Husk;
 
     private List<PlayerController> _playersInTrigger = new List<PlayerController>();
@@ -67,6 +69,7 @@ public class EnemyController : Unit
         {
             direction.Normalize();
             _rb.velocity = direction * _data.MoveSpeed;
+            _sprite.flipX = _rb.velocity.x < 0.0f;
         }
     }
 

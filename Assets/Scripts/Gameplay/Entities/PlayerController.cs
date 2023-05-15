@@ -27,9 +27,10 @@ public class PlayerController : Unit
 
     public List<WeaponBase> Weapons => _weapons;
 
+    [SerializeField] SpriteRenderer _sprite;
+
     int _level = 1;
     int _xp = 0;
-
 
     bool _isDead;
     Rigidbody2D _rb;
@@ -68,6 +69,11 @@ public class PlayerController : Unit
         if ( Input.GetKeyDown(KeyCode.F5))
         {
             CollectXP(3);
+        }
+
+        if (_inputs.sqrMagnitude > 0.0f)
+        {
+            _sprite.flipX = _inputs.x < 0.0f;
         }
     }
 
