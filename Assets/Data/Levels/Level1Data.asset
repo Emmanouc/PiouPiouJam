@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: Level1Data
   m_EditorClassIdentifier: 
   _waves:
-  - _timeToStart: 2
-    _timesToRepeat: 8
-    _repeatTimer: 3
+  - _timeToStart: 3
+    _timesToRepeat: 15
+    _repeatTimer: 8
     _enemyCount: 4
     _enemy: {fileID: 11400000, guid: de7771034e75ff04197edc11a666a0a1, type: 2}
     _movementType: 0
     _spawnDistance: 15
+  - _timeToStart: 10
+    _timesToRepeat: 1
+    _repeatTimer: 5
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: b04b64170d5a92a4ca0e2febad2606c0, type: 2}
+    _movementType: 0
+    _spawnDistance: 7
   - _timeToStart: 10
     _timesToRepeat: 1
     _repeatTimer: 0
