@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c800c2e66b018419c40ccaf776a819, type: 3}
+  m_Name: Level1Data
+  m_EditorClassIdentifier: 
+  _waves:
+  - _timeToStart: 5
+    _timesToRepeat: 5
+    _repeatTimer: 5
+    _enemyCount: 10
+    _enemy: {fileID: 11400000, guid: de7771034e75ff04197edc11a666a0a1, type: 2}
+    _movementType: 0
+    _spawnDistance: 10
+  - _timeToStart: 15
+    _timesToRepeat: 3
+    _repeatTimer: 25
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: b04b64170d5a92a4ca0e2febad2606c0, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 30
+    _timesToRepeat: 6
+    _repeatTimer: 10
+    _enemyCount: 12
+    _enemy: {fileID: 11400000, guid: 8e869b70977fecc48be1008a339eeb0e, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 45
+    _timesToRepeat: 3
+    _repeatTimer: 45
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: c644584f34566e44d9121bb65fd1c175, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 60
+    _timesToRepeat: 6
+    _repeatTimer: 25
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: bc90c4451174e5e4c8a321ea92ea92c5, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 80
+    _timesToRepeat: 2
+    _repeatTimer: 90
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: 17ee72a2ba0b0a244b2ee4b8c4149ddf, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 200
+    _timesToRepeat: 2
+    _repeatTimer: 120
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: 83f8fb10375028044afc11397ac074e0, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 225
+    _timesToRepeat: 2
+    _repeatTimer: 150
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: fdb51e8dc444cc943ac974d7cfa9bab9, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 80
+    _timesToRepeat: 2
+    _repeatTimer: 90
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: 6cf144d456bc5d54993676885c1bef1d, type: 2}
+    _movementType: 0
+    _spawnDistance: 20

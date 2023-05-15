@@ -201,4 +201,11 @@ public class PlayerController : Unit
         _life += valueToAdd;
         _lifeMax += valueToAdd;
     }
+
+    public void IncreaseMoveSpeed(float multiplier)
+    {
+        float valueToAdd = _moveSpeed * (multiplier - 1.0f);
+
+        _moveSpeed += valueToAdd;
+    }
 }

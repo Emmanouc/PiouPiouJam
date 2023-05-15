@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc039ccc39f388b4d87fcee0a88c2b02, type: 3}
-  m_Name: Enemy_BOSS1
+  m_Name: Enemy_BOSS1MA
   m_EditorClassIdentifier: 
   _life: 120
-  _damagePerSeconds: 20
-  _moveSpeed: 2
-  _prefab: {fileID: 7654918703708801626, guid: bc63bbf30f2977e4d9ed2c16afa08b56, type: 3}
+  _damagePerSeconds: 25
+  _moveSpeed: 3.5
+  _prefab: {fileID: 7654918703708801626, guid: 0b81cb1c19d9f5648a74ddba52f189c3, type: 3}
   _spriteOverride: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Enemy1_CAT2B
   m_EditorClassIdentifier: 
   _life: 30
-  _damagePerSeconds: 20
+  _damagePerSeconds: 12
   _moveSpeed: 1.5
   _prefab: {fileID: 7654918703708801626, guid: 15bb630a65a8f824fb3fcfaa9fc9879a, type: 3}
   _spriteOverride: {fileID: 0}
