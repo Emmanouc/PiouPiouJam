@@ -1,4 +1,4 @@
-         using System;
+using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -14,7 +14,10 @@ public class EnemyController : Unit
     GameObject _player;
     Rigidbody2D _rb;
     EnemyData _data;
+
     public GameObject DeathFX;
+    public GameObject Husk;
+
     private List<PlayerController> _playersInTrigger = new List<PlayerController>();
 
     private void Awake()
@@ -72,7 +75,6 @@ public class EnemyController : Unit
 
         if (Life <= 0)
         {
-            Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
             Die();
         }
     }
@@ -81,7 +83,8 @@ public class EnemyController : Unit
     {
         MainGameplay.Instance.Enemies.Remove(this);
         GameObject.Destroy(gameObject);
-        var xp = GameObject.Instantiate(MainGameplay.Instance.PrefabXP, transform.position, Quaternion.identity);
+        GameObject.Instantiate(Husk, transform.position, Quaternion.identity);
+        var xp = GameObject.Instantiate(MainGameplay.Instance.PrefabXP, transform.position + new Vector3(0,-0.5f,0), Quaternion.identity);
         xp.GetComponent<CollectableXp>().Initialize(1);
     }
 
