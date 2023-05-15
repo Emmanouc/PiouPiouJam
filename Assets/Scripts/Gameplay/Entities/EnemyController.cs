@@ -40,6 +40,8 @@ public class EnemyController : Unit
         foreach (var player in _playersInTrigger)
         {
             player.Hit(Time.deltaTime * _data.DamagePerSeconds);
+
+            FindObjectOfType<AudioManager>().Play("EnemyOuch");
         }
     }
 
@@ -69,6 +71,7 @@ public class EnemyController : Unit
     public override void Hit(float damage)
     {
         _life -= damage;
+        FindObjectOfType<AudioManager>().Play("EnemyOuch");
 
         if (Life <= 0)
         {
