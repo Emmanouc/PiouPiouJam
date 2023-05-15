@@ -15,7 +15,6 @@ public class EnemyController : Unit
     Rigidbody2D _rb;
     EnemyData _data;
 
-    public GameObject DeathFX;
     public GameObject Husk;
 
     private List<PlayerController> _playersInTrigger = new List<PlayerController>();
@@ -78,7 +77,6 @@ public class EnemyController : Unit
 
         if (Life <= 0)
         {
-            Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
             FindObjectOfType<AudioManager>().Play("EnemyBye");
             Die();
         }
