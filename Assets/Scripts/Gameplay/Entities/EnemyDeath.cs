@@ -6,6 +6,7 @@ public class EnemyDeath : MonoBehaviour
 {
     public GameObject DeathFX;
     public float delay;
+    public float ParticleLifetime;
 
 
     void Start()
@@ -15,12 +16,14 @@ public class EnemyDeath : MonoBehaviour
 
     private IEnumerator Delay(float delay)
     {
+        Debug.Log("coucou");
         yield return new WaitForSeconds(delay);
 
         GameObject Soul = Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
+        GameObject.Destroy(Soul, ParticleLifetime);
 
-        ParticleSystem SoulFX = Soul.GetComponent<ParticleSystem>();
-        yield return new WaitWhile(() =>SoulFX.isPlaying);
+
+        yield return new WaitForSeconds(ParticleLifetime);
 
         GameObject.Destroy(gameObject);
     }
