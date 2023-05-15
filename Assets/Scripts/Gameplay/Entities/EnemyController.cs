@@ -78,6 +78,8 @@ public class EnemyController : Unit
 
         if (Life <= 0)
         {
+            Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
+            FindObjectOfType<AudioManager>().Play("EnemyBye");
             Die();
         }
     }

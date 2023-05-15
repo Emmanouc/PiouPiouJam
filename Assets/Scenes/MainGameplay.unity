@@ -1352,6 +1352,11 @@ MonoBehaviour:
     Volume: 1
     Pitch: 1.79
     source: {fileID: 0}
+  - Name: EnemyBye
+    Clip: {fileID: 8300000, guid: 5c8645f2da1a5224a9549128c3a53f8f, type: 3}
+    Volume: 1
+    Pitch: 1.79
+    source: {fileID: 0}
 --- !u!1 &1963081150
 GameObject:
   m_ObjectHideFlags: 0
