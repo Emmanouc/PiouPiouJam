@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8481641091520885570}
   - component: {fileID: 8481641091520885571}
   m_Layer: 0
-  m_Name: DeathFX
+  m_Name: FX_DEATH_Enemy1_Cat2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1482,7 +1482,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: edbbb28d528d05a49b2051385bb07b33, type: 3}
+    - sprite: {fileID: 21300000, guid: e10507a180e57c542bf3dfe3d8ea66a4, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

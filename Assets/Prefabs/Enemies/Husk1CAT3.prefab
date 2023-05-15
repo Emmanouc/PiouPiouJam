@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7613059758420961783}
   - component: {fileID: 6977541446634874154}
   m_Layer: 0
-  m_Name: HuskCAT1
+  m_Name: Husk1CAT3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: daf1a3252c11df141b031f17bc9e1443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1ac5d234bed60a543bff52f83bfe1d10, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,5 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b68e48ceabdd86438806b59ccd38b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeathFX: {fileID: 8481641091520885572, guid: b4faaf24a7ae0de47afaf5f18cd1bf55, type: 3}
+  DeathFX: {fileID: 8481641091520885572, guid: 101189800467dcb4ab5b798c5496e0f5, type: 3}
   delay: 1

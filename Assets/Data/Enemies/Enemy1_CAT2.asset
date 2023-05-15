@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc039ccc39f388b4d87fcee0a88c2b02, type: 3}
-  m_Name: Enemy_CAT1B
+  m_Name: Enemy1_CAT2
   m_EditorClassIdentifier: 
-  _life: 20
-  _damagePerSeconds: 20
-  _moveSpeed: 1.2
-  _prefab: {fileID: 7654918703708801626, guid: 15bb630a65a8f824fb3fcfaa9fc9879a, type: 3}
+  _life: 5
+  _damagePerSeconds: 5
+  _moveSpeed: 1.5
+  _prefab: {fileID: 7654918703708801626, guid: 409b54c9a6d51e0439f2dd9857fb9ab5, type: 3}
   _spriteOverride: {fileID: 0}
