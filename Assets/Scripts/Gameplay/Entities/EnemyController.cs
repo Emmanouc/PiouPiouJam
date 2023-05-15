@@ -1,4 +1,4 @@
-using System;
+         using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -14,6 +14,7 @@ public class EnemyController : Unit
     GameObject _player;
     Rigidbody2D _rb;
     EnemyData _data;
+    public GameObject DeathFX;
     private List<PlayerController> _playersInTrigger = new List<PlayerController>();
 
     private void Awake()
@@ -71,6 +72,7 @@ public class EnemyController : Unit
 
         if (Life <= 0)
         {
+            Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
             Die();
         }
     }

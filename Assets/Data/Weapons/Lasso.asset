@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _weapon:
     rid: 0
-  _slotIndex: 1
+  _slotIndex: 0
   references:
     version: 2
     RefIds:
     - rid: 0
       type: {class: WeaponLasso, ns: Gameplay.Weapons, asm: Assembly-CSharp}
       data:
-        _damageMin: 12
-        _damageMax: 25
-        _coolDown: 3
+        _damageMin: 5
+        _damageMax: 10
+        _coolDown: 1
         _prefab: {fileID: 3633932044844237191, guid: a3d4fae4e5f31e046beeab4cc5595196, type: 3}
