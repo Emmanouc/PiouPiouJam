@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using Gameplay.Weapons;
 using UnityEngine;
+using DG.Tweening;
 
 /// <summary>
 /// Represents the player
@@ -130,6 +131,14 @@ public class PlayerController : Unit
     {
         if (_isDead)
             return;
+
+        //Feedback damage
+        _lifeBar.transform.DOComplete();
+        _lifeBar.transform.DOShakePosition(1f, strength: 0.5f, randomness: 90f);
+
+        _sprite.DOColor(Color.red, 0);
+        _sprite.DOColor(Color.white, 1);
+
 
         _life -= damage;
 
