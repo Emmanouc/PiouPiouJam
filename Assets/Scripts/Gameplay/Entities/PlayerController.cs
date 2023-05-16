@@ -30,6 +30,8 @@ public class PlayerController : Unit
 
     [SerializeField] SpriteRenderer _sprite;
 
+    float _speedmultiply = 1;
+
     int _level = 1;
     int _xp = 0;
 
@@ -114,7 +116,7 @@ public class PlayerController : Unit
         if (_inputs.sqrMagnitude > 0)
         {
             _inputs.Normalize();
-            _rb.velocity = _inputs * _playerData.MoveSpeed;
+            _rb.velocity = _inputs * _playerData.MoveSpeed * _speedmultiply;
             
             _lastDirection = _inputs;
 
@@ -215,5 +217,7 @@ public class PlayerController : Unit
     public void IncreaseMoveSpeed(float multiplier)
     {
         float valueToAdd = _playerData.MoveSpeed * (multiplier - 1.0f);
+
+        _speedmultiply += valueToAdd;
     }
 }

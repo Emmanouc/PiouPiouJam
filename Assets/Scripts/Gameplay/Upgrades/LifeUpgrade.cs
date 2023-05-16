@@ -11,6 +11,7 @@ public class LifeUpgrade : BaseUpgrade
     public override void Execute(PlayerController player)
     {
         player.IncreaseLifeMax(_multiplier);
+        Debug.Log("YA");
     }
 }
 

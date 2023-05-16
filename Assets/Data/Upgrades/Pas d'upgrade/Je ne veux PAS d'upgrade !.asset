@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46a8eaf7f7549014c8d97c971d54d2b0, type: 3}
-  m_Name: LifeUpgrade 1
+  m_Name: Je ne veux PAS d'upgrade !
   m_EditorClassIdentifier: 
-  _description: +10% life
+  _description: "Je pensais que c'\xE9tait clair ?!\n"
   _sprite: {fileID: 0}
   _upgrade:
     rid: 1177875279988654080
-  _nextUpgrades: []
+  _nextUpgrades:
+  - {fileID: 11400000, guid: 7b6298aa8ef920a4b85f9e8d240056ee, type: 2}
   references:
     version: 2
     RefIds:
     - rid: 1177875279988654080
       type: {class: LifeUpgrade, ns: , asm: Assembly-CSharp}
       data:
-        _multiplier: 1.1
+        _multiplier: 1

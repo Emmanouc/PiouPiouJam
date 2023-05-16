@@ -17,24 +17,6 @@ MonoBehaviour:
   _weapons:
   - {fileID: 11400000, guid: 5cb579dd5e88c8841be7f39d296088b3, type: 2}
   _upgrades:
+  - {fileID: 11400000, guid: 8643d03a2f291154694198ca36bb9778, type: 2}
   - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
-  - {fileID: 11400000, guid: cb624bc7f8ea6c04faac4a533379d2f1, type: 2}
+  - {fileID: 11400000, guid: 4e072b44e7168d54b8fb497a89f97e78, type: 2}
