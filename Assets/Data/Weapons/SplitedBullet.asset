@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: SplitedBullet
   m_EditorClassIdentifier: 
   _weapon:
-    rid: 0
+    rid: 1285237105597349889
   _slotIndex: 1
   references:
     version: 2
     RefIds:
-    - rid: 0
-      type: {class: WeaponBullet, ns: Gameplay.Weapons, asm: Assembly-CSharp}
+    - rid: 1285237105597349889
+      type: {class: WeaponSplitedBullets, ns: Gameplay.Weapons, asm: Assembly-CSharp}
       data:
-        _damageMin: 10
-        _damageMax: 15
-        _coolDown: 1
-        _prefab: {fileID: 3633932044844237191, guid: 4660ac6ef21504147b176616fca71ee3, type: 3}
-        _speed: 5
+        _damageMin: 0
+        _damageMax: 0
+        _coolDown: 0
+        _prefab: {fileID: 0}
+        _speed: 0
