@@ -42,9 +42,9 @@ MonoBehaviour:
     _movementType: 0
     _spawnDistance: 20
   - _timeToStart: 60
-    _timesToRepeat: 6
+    _timesToRepeat: 8
     _repeatTimer: 25
-    _enemyCount: 1
+    _enemyCount: 25
     _enemy: {fileID: 11400000, guid: bc90c4451174e5e4c8a321ea92ea92c5, type: 2}
     _movementType: 0
     _spawnDistance: 20
@@ -55,24 +55,59 @@ MonoBehaviour:
     _enemy: {fileID: 11400000, guid: 17ee72a2ba0b0a244b2ee4b8c4149ddf, type: 2}
     _movementType: 0
     _spawnDistance: 20
-  - _timeToStart: 10
+  - _timeToStart: 100
+    _timesToRepeat: 8
+    _repeatTimer: 30
+    _enemyCount: 30
+    _enemy: {fileID: 11400000, guid: 6cf144d456bc5d54993676885c1bef1d, type: 2}
+    _movementType: 0
+    _spawnDistance: 20
+  - _timeToStart: 110
+    _timesToRepeat: 2
+    _repeatTimer: 80
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: d820189a259ba8d4cb04c9aa611090a5, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 140
+    _timesToRepeat: 9
+    _repeatTimer: 40
+    _enemyCount: 25
+    _enemy: {fileID: 11400000, guid: 613262e462ba67f44abd88902c581968, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 150
+    _timesToRepeat: 2
+    _repeatTimer: 90
+    _enemyCount: 1
+    _enemy: {fileID: 11400000, guid: d820189a259ba8d4cb04c9aa611090a5, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 200
+    _timesToRepeat: 4
+    _repeatTimer: 60
+    _enemyCount: 10
+    _enemy: {fileID: 11400000, guid: 6623f05b546611f48a793886a0250d9d, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 250
+    _timesToRepeat: 4
+    _repeatTimer: 60
+    _enemyCount: 10
+    _enemy: {fileID: 11400000, guid: 4eb6c8b0b2bd609448cced26c7eff0f7, type: 2}
+    _movementType: 0
+    _spawnDistance: 25
+  - _timeToStart: 500
     _timesToRepeat: 2
     _repeatTimer: 120
     _enemyCount: 1
     _enemy: {fileID: 11400000, guid: 83f8fb10375028044afc11397ac074e0, type: 2}
     _movementType: 0
     _spawnDistance: 25
-  - _timeToStart: 10
+  - _timeToStart: 500
     _timesToRepeat: 2
     _repeatTimer: 150
     _enemyCount: 1
     _enemy: {fileID: 11400000, guid: fdb51e8dc444cc943ac974d7cfa9bab9, type: 2}
     _movementType: 0
     _spawnDistance: 25
-  - _timeToStart: 80
-    _timesToRepeat: 2
-    _repeatTimer: 90
-    _enemyCount: 1
-    _enemy: {fileID: 11400000, guid: 6cf144d456bc5d54993676885c1bef1d, type: 2}
-    _movementType: 0
-    _spawnDistance: 20
