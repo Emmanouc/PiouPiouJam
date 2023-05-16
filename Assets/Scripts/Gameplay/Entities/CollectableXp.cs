@@ -23,6 +23,9 @@ public class CollectableXp : MonoBehaviour
         }
     }
     
-    
+    public void XPUpgrade()
+    {
+
+    }
     
 }

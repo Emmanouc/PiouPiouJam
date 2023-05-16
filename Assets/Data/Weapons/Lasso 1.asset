@@ -23,5 +23,5 @@ MonoBehaviour:
       data:
         _damageMin: 8
         _damageMax: 13
-        _coolDown: 0.7
+        _coolDown: 0.8
         _prefab: {fileID: 3633932044844237191, guid: a3d4fae4e5f31e046beeab4cc5595196, type: 3}
