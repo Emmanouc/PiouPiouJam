@@ -15,7 +15,6 @@ public class EnemyDeath : MonoBehaviour
 
     private IEnumerator Delay(float delay)
     {
-        Debug.Log("coucou");
         yield return new WaitForSeconds(delay);
 
         GameObject Soul = Instantiate(DeathFX, transform.position, DeathFX.transform.rotation);
