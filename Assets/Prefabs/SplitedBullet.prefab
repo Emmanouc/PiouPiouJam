@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _team: 0
   _timeToLive: 10
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 8580888707000828428}
 --- !u!58 &4817246090734637744
 CircleCollider2D:
   m_ObjectHideFlags: 0
