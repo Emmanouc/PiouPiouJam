@@ -22,7 +22,7 @@ MonoBehaviour:
       type: {class: WeaponSplitedBullets, ns: Gameplay.Weapons, asm: Assembly-CSharp}
       data:
         _damageMin: 3
-        _damageMax: 8
+        _damageMax: 7
         _coolDown: 2.5
         _prefab: {fileID: 3633932044844237191, guid: 3337369caf7e5ad4caf5ccafb3fb2514, type: 3}
         _speed: 3.5

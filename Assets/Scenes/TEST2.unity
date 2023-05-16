@@ -1210,7 +1210,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -29369,11 +29369,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.47
+      value: -1.4238527
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.63
+      value: 26.572298
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29724,11 +29724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292541407633007945, guid: e955d39dc43348c4aa6de1b4ffa6613b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.71
+      value: 48.66
       objectReference: {fileID: 0}
     - target: {fileID: 5292541407633007945, guid: e955d39dc43348c4aa6de1b4ffa6613b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.16
+      value: -4.29
       objectReference: {fileID: 0}
     - target: {fileID: 5292541407633007945, guid: e955d39dc43348c4aa6de1b4ffa6613b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -69563,7 +69563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907526573
 MonoBehaviour:
@@ -69578,13 +69578,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sounds:
-  - Name: EnemyBye
-    Clip: {fileID: 8300000, guid: 5c8645f2da1a5224a9549128c3a53f8f, type: 3}
+  - Name: EnemyOuch
+    Clip: {fileID: 8300000, guid: c6a39fedd9740ef488177304ba74fc7f, type: 3}
     Volume: 0.75
     Pitch: 1.79
     source: {fileID: 0}
-  - Name: EnemyOuch
-    Clip: {fileID: 8300000, guid: 0bd46ac55eddfbf43a94f4854ac372f5, type: 3}
+  - Name: EnemyBye
+    Clip: {fileID: 8300000, guid: 5c8645f2da1a5224a9549128c3a53f8f, type: 3}
     Volume: 0.75
     Pitch: 1.79
     source: {fileID: 0}
@@ -71403,11 +71403,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.85
+      value: 12.92
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.78
+      value: 10.51
       objectReference: {fileID: 0}
     - target: {fileID: 9094870388626598166, guid: 43b7768c55c4037468abc10d81afeb39, type: 3}
       propertyPath: m_LocalPosition.z
