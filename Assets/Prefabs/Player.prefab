@@ -68,9 +68,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.046575785}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.5551752
 --- !u!114 &1198639532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +247,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 08b5b61b839a1f949986b2275a652a4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec534ef49a8a25c4292147bcae343260, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -299,7 +299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5615634789165536332, guid: 248286b08eb56d346b11dbe1a7d9a1f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6
+      value: -0.78
       objectReference: {fileID: 0}
     - target: {fileID: 5615634789165536332, guid: 248286b08eb56d346b11dbe1a7d9a1f4, type: 3}
       propertyPath: m_LocalPosition.z
