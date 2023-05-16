@@ -134,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerData: {fileID: 11400000, guid: b490d34c1b70df546a5ecca04aaa0cf9, type: 2}
   _levelUpData: {fileID: 11400000, guid: b53a9205d0857e44fb835c421f87f376, type: 2}
+  PlayerVisual: {fileID: 7558382418751458849}
   _lifeBar: {fileID: 347391273614035573}
   _sprite: {fileID: 2313686785438550815}
 --- !u!50 &401613624
