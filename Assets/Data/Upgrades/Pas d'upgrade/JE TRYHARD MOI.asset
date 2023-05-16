@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46a8eaf7f7549014c8d97c971d54d2b0, type: 3}
-  m_Name: LE MOUVEMENT
+  m_Name: JE TRYHARD MOI
   m_EditorClassIdentifier: 
-  _description: 'Rien du tout, NADA
-
-'
+  _description: BONHOMME PAS BESOIN D'UPGRADE
   _sprite: {fileID: 0}
   _upgrade:
     rid: 1177875279988654080

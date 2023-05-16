@@ -11,6 +11,7 @@ public class MoveSpeedUpgrade : BaseUpgrade
     public override void Execute(PlayerController player)
     {
         player.IncreaseMoveSpeed(_multiplier);
+        Debug.Log("YO");
     }
 }
 
