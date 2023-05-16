@@ -11,6 +11,8 @@ public class Bullet : MonoBehaviour
     [SerializeField] int _team;
     [SerializeField] float _timeToLive = 10.0f;
 
+    public SpriteRenderer Sprite;
+
     public bool DontDestroy { get; set; }
 
     float _speed = 10;
@@ -22,6 +24,9 @@ public class Bullet : MonoBehaviour
         _direction = direction;
         _speed = speed;
         _damage = damage;
+
+        if (_direction.x < 0.0f)
+            Sprite.flipX = true;
     }
 
     // Start is called before the first frame update

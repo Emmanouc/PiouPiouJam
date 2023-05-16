@@ -29,7 +29,7 @@ namespace Gameplay.Weapons
 
             GameObject go = GameObject.Instantiate(_prefab, position, Quaternion.identity,player.transform);
 
-            go.GetComponent<Bullet>().Initialize(new Vector3(),GetDamage(),0);
+            go.GetComponent<Bullet>().Initialize(player.Direction,GetDamage(),0);
             go.GetComponent<Bullet>().DontDestroy = true;
 
         }

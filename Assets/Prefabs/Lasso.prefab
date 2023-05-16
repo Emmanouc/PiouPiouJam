@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _team: 0
   _timeToLive: 0.2
+  Sprite: {fileID: 5669559191768392378}
 --- !u!50 &8980172895944532839
 Rigidbody2D:
   serializedVersion: 4
