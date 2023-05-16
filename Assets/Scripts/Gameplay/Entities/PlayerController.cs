@@ -136,7 +136,7 @@ public class PlayerController : Unit
         _lifeBar.transform.DOComplete();
         _lifeBar.transform.DOShakePosition(1f, strength: 0.5f, randomness: 90f);
 
-        _sprite.DOColor(Color.red, 0);
+        _sprite.DOColor(Color.red, 1).SetEase(Ease.OutElastic);
         _sprite.DOColor(Color.white, 1);
 
 
