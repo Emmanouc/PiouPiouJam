@@ -429,8 +429,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -621,8 +621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -743, y: 326}
-  m_SizeDelta: {x: 257.2098, y: 224.3769}
+  m_AnchoredPosition: {x: -745.69, y: 311}
+  m_SizeDelta: {x: 428.6205, y: 224.3769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541163442
 MonoBehaviour:
@@ -671,8 +671,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 220
-  m_fontSizeBase: 220
+  m_fontSize: 250
+  m_fontSizeBase: 250
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -759,7 +759,6 @@ MonoBehaviour:
   - {fileID: 8022416165344025219, guid: b050ef30ed5fcb041a38b04d9255b0a8, type: 3}
   - {fileID: 8022416165344025219, guid: e9e55515f5c56fa4ea4a222ed0ad163d, type: 3}
   - {fileID: 8022416165344025219, guid: 17d0a90cd857a2c469c6c1c8d6e2bd5f, type: 3}
-  - {fileID: 8022416165344025219, guid: 40304e3b2a8d54342bd7ade1aaf7e05e, type: 3}
   delay: 0.75
 --- !u!4 &649866336
 Transform:
@@ -2100,7 +2099,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.263
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2445,8 +2444,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
