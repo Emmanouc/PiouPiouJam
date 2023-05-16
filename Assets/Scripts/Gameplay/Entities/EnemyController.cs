@@ -84,8 +84,8 @@ public class EnemyController : Unit
         _sprite.DOColor(Color.red, 0).SetEase(Ease.OutElastic);
         _sprite.DOColor(Color.white, 1);
 
-        transform.DOComplete();
-        transform.DOShakePosition(0.4f, strength: 0.5f).SetEase(Ease.OutBounce);
+        //transform.DOComplete();
+        transform.DOShakePosition(0.3f, strength: 0.5f).SetEase(Ease.OutBounce);
 
         if (Life <= 0)
         {
