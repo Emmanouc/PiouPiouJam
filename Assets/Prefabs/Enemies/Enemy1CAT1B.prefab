@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 4496988910612091953}
   - component: {fileID: 162830682666279144}
   - component: {fileID: 4727944546984906339}
-  - component: {fileID: 7367387483162049212}
+  - component: {fileID: 8240158581627050708}
   m_Layer: 6
   m_Name: Enemy1CAT1B
   m_TagString: Untagged
@@ -175,7 +175,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &7367387483162049212
+--- !u!58 &8240158581627050708
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
