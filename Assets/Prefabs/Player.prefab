@@ -134,7 +134,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerData: {fileID: 11400000, guid: b490d34c1b70df546a5ecca04aaa0cf9, type: 2}
   _levelUpData: {fileID: 11400000, guid: b53a9205d0857e44fb835c421f87f376, type: 2}
-  PlayerVisual: {fileID: 7558382418751458849}
   _lifeBar: {fileID: 347391273614035573}
   _sprite: {fileID: 2313686785438550815}
 --- !u!50 &401613624
@@ -247,7 +246,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ec534ef49a8a25c4292147bcae343260, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
