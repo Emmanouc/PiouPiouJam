@@ -7,6 +7,6 @@ public class CatDestroyer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject.Destroy(gameObject, 60.0f);
+        GameObject.Destroy(gameObject, 30.0f);
     }
 }
