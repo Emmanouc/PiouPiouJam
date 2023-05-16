@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using DG.Tweening;
 
 /// <summary>
 /// Manages all the UI of the main Gameplay
@@ -16,6 +18,8 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] XPBar _xpBar;
     [SerializeField] GameObject _panelUpgradesParent;
     [SerializeField] PanelUpgrade[] _panelUpgrades;
+
+    [SerializeField] Image FadeIn;
 
     internal void ClosePanelUpgrade()
     {
@@ -58,6 +62,9 @@ public class GameUIManager : MonoBehaviour
     public void DisplayGameOver()
     {
         _panelGameOver.SetActive(true);
+
+        FadeIn.DOFade(0, 5).SetEase(Ease.InCubic);
+
     }
 
     public void DisplayVictory()
