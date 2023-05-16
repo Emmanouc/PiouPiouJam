@@ -778,8 +778,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7960a3bcf0104634c82dffa964bda24d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.52
-  m_Pitch: 1
+  m_Volume: 0.36
+  m_Pitch: 1.38
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -41847,12 +41847,12 @@ MonoBehaviour:
   Sounds:
   - Name: EnemyOuch
     Clip: {fileID: 8300000, guid: c6a39fedd9740ef488177304ba74fc7f, type: 3}
-    Volume: 1
+    Volume: 0.75
     Pitch: 1.79
     source: {fileID: 0}
   - Name: EnemyBye
     Clip: {fileID: 8300000, guid: 5c8645f2da1a5224a9549128c3a53f8f, type: 3}
-    Volume: 1
+    Volume: 0.75
     Pitch: 1.79
     source: {fileID: 0}
 --- !u!82 &1907526574
@@ -41867,7 +41867,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7202459b2124b2c458359adcb5bb100b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.028
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
