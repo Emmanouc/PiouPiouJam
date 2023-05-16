@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using DG.Tweening;
 
 /// <summary>
 /// Represents an enemy who's moving toward the player
@@ -76,7 +77,11 @@ public class EnemyController : Unit
     public override void Hit(float damage)
     {
         _life -= damage;
+
         FindObjectOfType<AudioManager>().Play("EnemyOuch");
+
+        _sprite.DOColor(Color.red, 0).SetEase(Ease.OutElastic);
+        _sprite.DOColor(Color.white, 1);
 
         if (Life <= 0)
         {
