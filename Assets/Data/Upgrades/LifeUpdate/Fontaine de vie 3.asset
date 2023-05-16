@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fontaine de vie 3
   m_EditorClassIdentifier: 
   _description: +10% life
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 48fe4077f039ec848b5c20cc2aa98695, type: 3}
   _upgrade:
     rid: 1177875279988654080
   _nextUpgrades:

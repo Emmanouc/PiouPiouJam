@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6180054867534706450}
   - component: {fileID: 6180054867534706451}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Cat 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6180054867534706540}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 16.948637, y: 19.490206, z: 3.2456553}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -748,7 +748,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 28.59
       mode: 0
       spread: 0
       speed:
@@ -1482,7 +1482,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 22b84a7956b319c4bb4ac1bfaebf66ab, type: 3}
+    - sprite: {fileID: 21300000, guid: fdedbafcc6ae1524a89992d62bc1f725, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

@@ -97,14 +97,14 @@ MonoBehaviour:
     _enemy: {fileID: 11400000, guid: 4eb6c8b0b2bd609448cced26c7eff0f7, type: 2}
     _movementType: 0
     _spawnDistance: 25
-  - _timeToStart: 500
+  - _timeToStart: 100
     _timesToRepeat: 2
     _repeatTimer: 120
     _enemyCount: 1
     _enemy: {fileID: 11400000, guid: 83f8fb10375028044afc11397ac074e0, type: 2}
     _movementType: 0
     _spawnDistance: 25
-  - _timeToStart: 500
+  - _timeToStart: 100
     _timesToRepeat: 2
     _repeatTimer: 150
     _enemyCount: 1
