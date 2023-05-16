@@ -21,19 +21,19 @@ MonoBehaviour:
     value: 0
   color:
     overrideState: 1
-    value: {r: 0.47058827, g: 0.32156864, b: 0, a: 1}
+    value: {r: 0.6415094, g: 0.4489053, b: 0.033285867, a: 1}
   center:
     overrideState: 1
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.303
+    value: 0.504
   smoothness:
     overrideState: 1
-    value: 0.745
+    value: 0.532
   roundness:
     overrideState: 1
-    value: 0.494
+    value: 0.795
   rounded:
     overrideState: 0
     value: 0
@@ -65,10 +65,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.4
+    value: 0.328
   size:
     overrideState: 1
-    value: 1
+    value: 0.91
   lumContrib:
     overrideState: 1
     value: 0.8
@@ -89,35 +89,7 @@ MonoBehaviour:
   - {fileID: 1831748829133078762}
   - {fileID: 7733034892385403441}
   - {fileID: -4191313470913930539}
-  - {fileID: 690613326403706063}
---- !u!114 &690613326403706063
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
-  m_Name: DepthOfField
-  m_EditorClassIdentifier: 
-  active: 0
-  enabled:
-    overrideState: 1
-    value: 1
-  focusDistance:
-    overrideState: 1
-    value: 10
-  aperture:
-    overrideState: 1
-    value: 5.6
-  focalLength:
-    overrideState: 1
-    value: 50
-  kernelSize:
-    overrideState: 1
-    value: 1
+  - {fileID: 2589285138908513029}
 --- !u!114 &1831748829133078762
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -136,7 +108,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.9
+    value: 0.5
   threshold:
     overrideState: 1
     value: 0.6
@@ -148,7 +120,7 @@ MonoBehaviour:
     value: 65472
   diffusion:
     overrideState: 1
-    value: 7
+    value: 7.38
   anamorphicRatio:
     overrideState: 1
     value: 0
@@ -165,6 +137,28 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
+--- !u!114 &2589285138908513029
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
+  m_Name: MotionBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  shutterAngle:
+    overrideState: 1
+    value: 304
+  sampleCount:
+    overrideState: 1
+    value: 22
 --- !u!114 &7733034892385403441
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -187,7 +181,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.045
+    value: 0.09
   fastMode:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
