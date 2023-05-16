@@ -1,20 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CatGenerator : MonoBehaviour
 {
-    public PlunkThing[] PlunkThings;
+    public GameObject[] PlunkThings;
 
-    // Start is called before the first frame update
+    public float delay;
+
+
     void Start()
     {
-        
+        int totalElements = PlunkThings.Count();
+
+        StartCoroutine(Delay(delay, totalElements));
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator Delay(float delay, int totalElements)
     {
-        
+        while (true)
+        {
+            int pick = Random.Range(0, totalElements);
+
+            GameObject Cat = Instantiate(PlunkThings[pick], transform.position , Quaternion.identity);
+
+            yield return new WaitForSeconds(delay);
+        }
     }
 }
