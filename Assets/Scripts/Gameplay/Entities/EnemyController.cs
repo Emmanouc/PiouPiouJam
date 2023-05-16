@@ -18,7 +18,7 @@ public class EnemyController : Unit
 
     [SerializeField] SpriteRenderer _sprite;
 
-    public GameObject Husk;
+    [SerializeField] GameObject Husk;
 
     private List<PlayerController> _playersInTrigger = new List<PlayerController>();
 
@@ -80,8 +80,12 @@ public class EnemyController : Unit
 
         FindObjectOfType<AudioManager>().Play("EnemyOuch");
 
+        //Feedback damage
         _sprite.DOColor(Color.red, 0).SetEase(Ease.OutElastic);
         _sprite.DOColor(Color.white, 1);
+
+        transform.DOComplete();
+        transform.DOShakePosition(0.4f, strength: 0.5f).SetEase(Ease.OutBounce);
 
         if (Life <= 0)
         {

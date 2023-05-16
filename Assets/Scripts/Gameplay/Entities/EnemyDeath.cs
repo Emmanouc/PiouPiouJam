@@ -22,6 +22,8 @@ public class EnemyDeath : MonoBehaviour
         ParticleSystem SoulFX = Soul.GetComponent<ParticleSystem>();
         yield return new WaitWhile(() =>SoulFX.isPlaying);
 
+        yield return new WaitForSeconds(100);
+
         GameObject.Destroy(gameObject);
     }
 }
