@@ -758,6 +758,7 @@ MonoBehaviour:
   - {fileID: 8022416165344025219, guid: ed5e13f7e385d09488a16519fc386dc3, type: 3}
   - {fileID: 8022416165344025219, guid: b050ef30ed5fcb041a38b04d9255b0a8, type: 3}
   - {fileID: 8022416165344025219, guid: e9e55515f5c56fa4ea4a222ed0ad163d, type: 3}
+  - {fileID: 8022416165344025219, guid: 06526f040db45034f88df42da4734221, type: 3}
   - {fileID: 8022416165344025219, guid: 17d0a90cd857a2c469c6c1c8d6e2bd5f, type: 3}
   delay: 0.75
 --- !u!4 &649866336
